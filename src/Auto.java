@@ -1,9 +1,9 @@
-public class Macchina {
+public class Auto {
     private int cilindrata;
     private int modello;
     private String marca;
     private String targa;
-    public Macchina (int cilindrata, int modello, String marca, String targa) {
+    public Auto (int cilindrata, int modello, String marca, String targa) {
 
         this.cilindrata = cilindrata;
         this.modello = modello;
@@ -37,7 +37,7 @@ public void setModello (int modello) {
     }
 @Override
     public String toString() {
-    return "Macchina: {" +
+    return "Auto: {" +
             "Cilindrata = " + cilindrata +
             ", Modello = " + modello  +
             ", Marca = " + marca   +
