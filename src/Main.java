@@ -1,11 +1,13 @@
 
 public class Main {
     public static void main(String[] args) {
+        
+//Richiamando la classe ValoriAuto, vado a crearmi un metodo contenente i valori per i metodi creati precedentemente.
+        
+        ValoriAuto Automobile1 = new ValoriAuto("1500", "12242394", "Volvo", "P20231");
+        ValoriAuto Automobile2 = new ValoriAuto ("1200", "238238238", "Ford", "L23123");
 
-        Auto auto1 = new Auto (500, 921245394, "Ford", "PO126CV");
-        Auto auto2 = new Auto (1000, 843293492, "Volvo", "C2542PK");
-
-        System.out.println("Info dell'auto sono: " + auto1);
-        System.out.println("Info dell'auto sono: " + auto2);
+        System.out.println("Info dell'auto sono: " + Automobile1);
+        System.out.println("Info dell'auto sono: " + Automobile2);
     }
 }
